@@ -19,7 +19,6 @@
 		153307092C8BF9D600AF4C87 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153307042C8BF9D600AF4C87 /* PersistenceController.swift */; };
 		1558EEF02C8C05DB0023D26C /* SongSyncModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1558EEEE2C8C05DB0023D26C /* SongSyncModel.xcdatamodeld */; };
 		1558EEF42C8C0D150023D26C /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558EEF32C8C0D150023D26C /* PlaybackView.swift */; };
-		1558EEF62C8C11C30023D26C /* New Recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1558EEF52C8C11C30023D26C /* New Recording.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 		153307042C8BF9D600AF4C87 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = ../../../Downloads/SongSync/SongSync/PersistenceController.swift; sourceTree = "<group>"; };
 		1558EEEF2C8C05DB0023D26C /* SongSyncModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SongSyncModel.xcdatamodel; sourceTree = "<group>"; };
 		1558EEF32C8C0D150023D26C /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
-		1558EEF52C8C11C30023D26C /* New Recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "New Recording.m4a"; path = "Songs/New Recording.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +109,6 @@
 				153307022C8BF9D600AF4C87 /* RecordView.swift */,
 				153307032C8BF9D600AF4C87 /* SongLibraryView.swift */,
 				1558EEF32C8C0D150023D26C /* PlaybackView.swift */,
-				1558EEF52C8C11C30023D26C /* New Recording.m4a */,
 				153306D52C8BF99200AF4C87 /* SongSyncApp.swift */,
 				153306D92C8BF99300AF4C87 /* Assets.xcassets */,
 				153306DB2C8BF99300AF4C87 /* Preview Content */,
@@ -250,7 +247,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				153306DD2C8BF99300AF4C87 /* Preview Assets.xcassets in Resources */,
-				1558EEF62C8C11C30023D26C /* New Recording.m4a in Resources */,
 				153306DA2C8BF99300AF4C87 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
