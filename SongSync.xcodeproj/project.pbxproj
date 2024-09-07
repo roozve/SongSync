@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		153306D62C8BF99200AF4C87 /* SongSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306D52C8BF99200AF4C87 /* SongSyncApp.swift */; };
-		153306D82C8BF99200AF4C87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306D72C8BF99200AF4C87 /* ContentView.swift */; };
 		153306DA2C8BF99300AF4C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153306D92C8BF99300AF4C87 /* Assets.xcassets */; };
 		153306DD2C8BF99300AF4C87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153306DC2C8BF99300AF4C87 /* Preview Assets.xcassets */; };
 		153306E72C8BF99300AF4C87 /* SongSyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306E62C8BF99300AF4C87 /* SongSyncTests.swift */; };
 		153306F12C8BF99300AF4C87 /* SongSyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306F02C8BF99300AF4C87 /* SongSyncUITests.swift */; };
 		153306F32C8BF99300AF4C87 /* SongSyncUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306F22C8BF99300AF4C87 /* SongSyncUITestsLaunchTests.swift */; };
+		153307052C8BF9D600AF4C87 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153306FF2C8BF9D600AF4C87 /* AudioManager.swift */; };
+		153307072C8BF9D600AF4C87 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153307022C8BF9D600AF4C87 /* RecordView.swift */; };
+		153307082C8BF9D600AF4C87 /* SongLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153307032C8BF9D600AF4C87 /* SongLibraryView.swift */; };
+		153307092C8BF9D600AF4C87 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153307042C8BF9D600AF4C87 /* PersistenceController.swift */; };
+		1558EEF02C8C05DB0023D26C /* SongSyncModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1558EEEE2C8C05DB0023D26C /* SongSyncModel.xcdatamodeld */; };
+		1558EEF42C8C0D150023D26C /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1558EEF32C8C0D150023D26C /* PlaybackView.swift */; };
+		1558EEF62C8C11C30023D26C /* New Recording.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1558EEF52C8C11C30023D26C /* New Recording.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		153306D22C8BF99200AF4C87 /* SongSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153306D52C8BF99200AF4C87 /* SongSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSyncApp.swift; sourceTree = "<group>"; };
-		153306D72C8BF99200AF4C87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		153306D92C8BF99300AF4C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153306DC2C8BF99300AF4C87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		153306E22C8BF99300AF4C87 /* SongSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		153306EC2C8BF99300AF4C87 /* SongSyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SongSyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		153306F02C8BF99300AF4C87 /* SongSyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSyncUITests.swift; sourceTree = "<group>"; };
 		153306F22C8BF99300AF4C87 /* SongSyncUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongSyncUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		153306FF2C8BF9D600AF4C87 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioManager.swift; path = ../../../Downloads/SongSync/SongSync/AudioManager.swift; sourceTree = "<group>"; };
+		153307022C8BF9D600AF4C87 /* RecordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecordView.swift; path = ../../../Downloads/SongSync/SongSync/RecordView.swift; sourceTree = "<group>"; };
+		153307032C8BF9D600AF4C87 /* SongLibraryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SongLibraryView.swift; path = ../../../Downloads/SongSync/SongSync/SongLibraryView.swift; sourceTree = "<group>"; };
+		153307042C8BF9D600AF4C87 /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersistenceController.swift; path = ../../../Downloads/SongSync/SongSync/PersistenceController.swift; sourceTree = "<group>"; };
+		1558EEEF2C8C05DB0023D26C /* SongSyncModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SongSyncModel.xcdatamodel; sourceTree = "<group>"; };
+		1558EEF32C8C0D150023D26C /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		1558EEF52C8C11C30023D26C /* New Recording.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "New Recording.m4a"; path = "Songs/New Recording.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +106,16 @@
 		153306D42C8BF99200AF4C87 /* SongSync */ = {
 			isa = PBXGroup;
 			children = (
+				153306FF2C8BF9D600AF4C87 /* AudioManager.swift */,
+				153307042C8BF9D600AF4C87 /* PersistenceController.swift */,
+				153307022C8BF9D600AF4C87 /* RecordView.swift */,
+				153307032C8BF9D600AF4C87 /* SongLibraryView.swift */,
+				1558EEF32C8C0D150023D26C /* PlaybackView.swift */,
+				1558EEF52C8C11C30023D26C /* New Recording.m4a */,
 				153306D52C8BF99200AF4C87 /* SongSyncApp.swift */,
-				153306D72C8BF99200AF4C87 /* ContentView.swift */,
 				153306D92C8BF99300AF4C87 /* Assets.xcassets */,
 				153306DB2C8BF99300AF4C87 /* Preview Content */,
+				1558EEEE2C8C05DB0023D26C /* SongSyncModel.xcdatamodeld */,
 			);
 			path = SongSync;
 			sourceTree = "<group>";
@@ -232,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153306DD2C8BF99300AF4C87 /* Preview Assets.xcassets in Resources */,
+				1558EEF62C8C11C30023D26C /* New Recording.m4a in Resources */,
 				153306DA2C8BF99300AF4C87 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +276,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153306D82C8BF99200AF4C87 /* ContentView.swift in Sources */,
+				1558EEF42C8C0D150023D26C /* PlaybackView.swift in Sources */,
+				153307052C8BF9D600AF4C87 /* AudioManager.swift in Sources */,
+				153307092C8BF9D600AF4C87 /* PersistenceController.swift in Sources */,
 				153306D62C8BF99200AF4C87 /* SongSyncApp.swift in Sources */,
+				153307082C8BF9D600AF4C87 /* SongLibraryView.swift in Sources */,
+				153307072C8BF9D600AF4C87 /* RecordView.swift in Sources */,
+				1558EEF02C8C05DB0023D26C /* SongSyncModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +606,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1558EEEE2C8C05DB0023D26C /* SongSyncModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1558EEEF2C8C05DB0023D26C /* SongSyncModel.xcdatamodel */,
+			);
+			currentVersion = 1558EEEF2C8C05DB0023D26C /* SongSyncModel.xcdatamodel */;
+			name = SongSyncModel.xcdatamodeld;
+			path = /Users/rusbeh/Projects/SongSync/SongSync/SongSyncModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 153306CA2C8BF99200AF4C87 /* Project object */;
 }
