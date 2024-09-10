@@ -2,54 +2,71 @@
 
 **SongSync** is an iOS app that allows users to **record**, **store**, and **playback** songs, while offering features like a **metronome** synchronized with playback, and **tempo adjustment** for performance analysis.
 
-## 📚 Features
+## Features and User Stories
 
-### 1. **Live Song Recording**
-- **User Story 1: Record a Song**
-  - **As a user**, I want to record a live performance using the app, so that I can store it with a custom song name and timestamp for future playback.
-  
-  #### 🎯 **Acceptance Criteria**:
-  - Users can navigate to the **RecordView** and input a **custom song name** before starting the recording.
-  - Once recording starts, the audio is saved dynamically to the **Documents directory**.
-  - When the recording is stopped, it is saved to **Core Data** with the song name, file URL, and timestamp.
-  - After saving, the app returns to the **SongLibraryView**, where the new recording is listed.
+### 1. Live Song Recording
 
-### 2. **Song Library**
-- **User Story 2: Store Recorded Songs**
-  - **As a user**, I want to view my list of recorded songs in the library, so that I can manage and access them easily.
-  
-  #### 🎯 **Acceptance Criteria**:
-  - All saved recordings are listed in the **SongLibraryView**.
-  - Each recording displays:
-    - **Custom song name**
-    - **Timestamp** (date and time of recording)
-  - Users can **delete** a recording.
-  - Users can **tap** on a recording to navigate to the playback screen.
+#### User Story 1: Record a Song
+As a user, I want to record a live performance using the app without needing to input a custom song name so that the recording process is as seamless as possible.
 
-### 3. **Playback with Metronome and Tempo Adjustment**
-- **User Story 3: Playback with Metronome**
-  - **As a user**, I want to play back my recorded songs with a metronome, so that I can analyze the timing of my performance.
+**🎯 Acceptance Criteria:**
+- [x] Users can navigate to the `RecordView`, and recording starts automatically without asking for a song name.
+- [x] The visualizer is displayed horizontally, showing the real-time audio input levels.
+- [x] The recording is saved with the actual filename as the recording name.
+- [x] Once the recording is stopped, it is saved to Core Data with the file URL and timestamp.
+- [x] After saving, the app returns to the `SongLibraryView`, where the new recording is listed.
 
-  #### 🎯 **Acceptance Criteria**:
-  - The user can select a recording in the **SongLibraryView** to navigate to the **PlaybackView**.
-  - The app plays the recorded song using **AVAudioPlayer**, dynamically loading from the file URL.
-  - A visual **metronome (pulse)** is synchronized with the song’s tempo.
-  
-- **User Story 4: Adjust the Tempo**
-  - **As a user**, I want to adjust the metronome’s BPM (beats per minute), so that I can change the speed of the playback for analysis.
-  
-  #### 🎯 **Acceptance Criteria**:
-  - Users can adjust the **tempo (BPM)** using a slider, allowing tempo adjustments between 60 and 180 BPM.
-  - The tempo slider dynamically updates the metronome without affecting audio playback.
+---
 
-### 4. **Song Deletion and Library Management**
-- **User Story 5: Delete a Song**
-  - **As a user**, I want to be able to delete a recording from my library, so that I can manage my storage and remove unwanted recordings.
-  
-  #### 🎯 **Acceptance Criteria**:
-  - Users can **swipe to delete** any recording from the **SongLibraryView**.
-  - Deleting a recording removes it from **Core Data**.
-  - The **SongLibraryView** updates in real-time to reflect the changes.
+### 2. Song Library
+
+#### User Story 2: Store Recorded Songs
+As a user, I want to view my list of recorded songs in the library, so that I can manage and access them easily.
+
+**🎯 Acceptance Criteria:**
+- [x] All saved recordings are listed in the `SongLibraryView`.
+- [x] Each recording displays:
+  - The actual file name as the song name.
+  - Timestamp (date and time of recording).
+- [x] Users can delete a recording.
+- [x] Users can tap on a recording to navigate to the playback screen.
+
+---
+
+### 3. Playback with Metronome and Tempo Adjustment
+
+#### User Story 3: Playback with Metronome
+As a user, I want to play back my recorded songs with a metronome so that I can analyze the timing of my performance.
+
+**🎯 Acceptance Criteria:**
+- [x] The user can select a recording in the `SongLibraryView` to navigate to the `PlaybackView`.
+- [x] The app plays the recorded song using `AVAudioPlayer`, dynamically loading from the file URL.
+- [x] A visual metronome (pulse) is synchronized with the song’s tempo.
+
+#### User Story 4: Adjust the Tempo
+As a user, I want to adjust the metronome’s BPM (beats per minute) so that I can change the speed of the playback for analysis.
+
+**🎯 Acceptance Criteria:**
+- [x] Users can adjust the tempo (BPM) using a slider, allowing tempo adjustments between 60 and 180 BPM.
+- [x] The tempo slider dynamically updates the metronome without affecting audio playback.
+
+---
+
+### 4. Song Deletion and Library Management
+
+#### User Story 5: Delete a Song
+As a user, I want to be able to delete a recording from my library so that I can manage my storage and remove unwanted recordings.
+
+**🎯 Acceptance Criteria:**
+- [x] Users can swipe to delete any recording from the `SongLibraryView`.
+- [x] Deleting a recording removes it from Core Data.
+- [x] The `SongLibraryView` updates in real-time to reflect the changes.
+
+---
+
+## Technology Stack
+- **SwiftUI** for building UI components.
+- **CoreData** for​⬤
 
 ## 📂 Project Structure
 

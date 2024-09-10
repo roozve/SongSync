@@ -10,21 +10,6 @@ import SwiftUI
 struct SongSyncApp: App {
     let persistenceController = PersistenceController.shared
     
-    init() {
-        let viewContext = persistenceController.container.viewContext
-        let testRecording = RecordingEntity(context: viewContext)
-        testRecording.id = UUID()
-        testRecording.name = "Test Recording"
-        testRecording.fileURL = URL(fileURLWithPath: "/test/path")
-        testRecording.date = Date()
-        
-        do {
-            try viewContext.save()
-        } catch {
-            print("Failed to save test data: \(error)")
-        }
-    }
-    
     var body: some Scene {
         WindowGroup {
             NavigationView {
